@@ -9,9 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-    }
-}
+        VStack {
+            Text("What is your name?")
+                .font(.title)
+                .fontWeight(.bold)
+        }//vstack
+    }//body
+}//struct
+
+
 
 #Preview {
     ContentView()
